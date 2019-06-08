@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_item_amo_filmes">
+
+    <ImageView
+        android:id="@+id/iv_item_amo_filmes"
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/cl_item_amo_filmes"
+        app:layout_constraintTop_toTopOf="@id/cl_item_amo_filmes" />
+    <TextView
+        android:id="@+id/tv_item_amo_filmes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_item_amo_filmes"
+        app:layout_constraintStart_toStartOf="@id/iv_item_amo_filmes"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp"/>
+
+</android.support.constraint.ConstraintLayout>
